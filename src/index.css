@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* MainPage.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.searchBar input[type='text'] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 200px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.searchBar input[type='text']:focus {
+  border-color: #007bff;
+}
+
+.searchBar button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff7f00;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.searchBar button:hover {
+  background-color: #e66a00;
+}

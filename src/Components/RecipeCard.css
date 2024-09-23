@@ -1,0 +1,45 @@
+.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-component {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  font-size: 16px;
+  margin: 10px;
+}
+.recipe-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust the gap between cards */
+  justify-content: center; /* Center the cards horizontally */
+}
+
+.card {
+  width: 200px; /* Adjust card width */
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
